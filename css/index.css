@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+  *:before, *:after {
+    box-sizing: border-box; }
+
+h1, h2, h3 {
+  text-align: center;
+  margin: 10px; }
+
+.col-examples, .vertical-align-examples {
+  font-size: 0;
+  margin-bottom: 20px; }
+
+.col-examples article {
+  box-sizing: border-box;
+  vertical-align: top;
+  font-size: 16px;
+  display: inline-block;
+  width: 33.33333%;
+  padding-right: 0;
+  padding-left: 1em; }
+  @media only screen and (max-width: 768px) {
+    .col-examples article {
+      width: 100%;
+      vertical-align: baseline; } }
+
+.vertical-align-examples article {
+  box-sizing: border-box;
+  vertical-align: middle;
+  font-size: 16px;
+  display: inline-block;
+  width: 33.33333%;
+  padding-right: 1em;
+  padding-left: 0;
+  text-align: center; }
+  @media only screen and (max-width: 768px) {
+    .vertical-align-examples article {
+      width: 100%;
+      vertical-align: baseline; } }
+
+/*# sourceMappingURL=index.css.map */
